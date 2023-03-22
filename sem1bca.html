@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Computer Applications & Information Technology</title>
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+            scroll-behavior: smooth;
+
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: .9375rem;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #343a40;
+            text-align: left;
+            background-color: #fff;
+        }
+
+        .nav {
+
+            display: flex;
+            height: 50px;
+            padding: 0.6rem 1rem;
+            border: 1px solid rgba(74, 74, 74, 0.4);
+            justify-content: space-between;
+            background-color: #FFF;
+            max-width: 1330px;
+            margin-left: 12px;
+            margin-right: 12px;
+            ;
+        }
+
+        .gls {
+            font-weight: 450;
+        }
+
+        p a {
+            color: #1177d1;
+            text-decoration: none;
+        }
+
+        p a:hover {
+            text-decoration: underline;
+        }
+
+        .c-1 {
+            border: 1px solid rgba(74, 74, 74, 0.4);
+            height: 100%;
+            margin-top: 10px;
+            max-width: 1330px;
+            margin-left: 12px;
+            margin-right: 12px;
+
+
+        }
+
+        .c-4 {
+            cursor: pointer;
+            padding: 20px 20px;
+        }
+
+        .link a {
+            color: #1177d1;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 5px;
+
+        }
+
+        .link a:hover {
+            text-decoration: underline;
+
+        }
+
+        details summary a {
+
+            color: #1177d1;
+            text-decoration: none;
+            margin-left: 5px;
+            font-size: 21px;
+            font-weight: 300;
+
+        }
+
+        details summary span {
+            margin-left: 50px;
+        }
+
+        details summary a:hover {
+            text-decoration: underline;
+        }
+
+        .detai {
+            font-size: 21px;
+
+        }
+
+        .heading {
+            border: 1px solid rgba(74, 74, 74, 0.4);
+            margin-top: 15px;
+            min-height: 105px;
+            max-width: 1330px;
+            padding: 25px;
+
+
+        }
+
+        .heading-2 {
+
+            font-size: 35px;
+            font-weight: 350;
+        }
+
+        .main-h {
+
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        @media(max-width:500px) {
+            .main-h {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+            .nav {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                height: 100%;
+                align-items: center;
+                margin-left: 0px;
+                margin-right: 0;
+
+            }
+
+            #img {
+                display: none;
+
+            }
+
+            .heading-2 {
+
+                font-size: 25px;
+                font-weight: 350;
+
+            }
+
+            .detai {
+                font-size: 18px;
+            }
+
+            .f1 {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+
+
+                /* margin-left: 200px; */
+            }
+
+            .c-1 {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
+
+        @media(max-width:810px) {
+            .f1 {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        footer {
+            color: #f8f9fa !important;
+            margin-top: 20px;
+            background-color: #343a40 !important;
+            max-width: 100%;
+        }
+
+        .mf1 h2,
+        .mf2 h2 {
+            font-size: 23px;
+
+            font-weight: 400;
+        }
+
+        .f1 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .mf1 {
+            /* padding-left: 200px; */
+            padding-top: 30px;
+            padding-bottom: 30px;
+
+        }
+
+        .mf2 {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        span {
+            color: #343a40;
+            transform: rotate(90deg);
+        }
+
+        span:hover {
+            text-decoration: none;
+        }
+
+        .s1 {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="nav">
+        <h3 class="gls">GLS</h3>
+
+        <P class="login">You are not log out. (<a href="/home.html">Log out</a>)</P>
+
+    </nav>
+    <!-- heading  -->
+    <div class="main-h">
+        <div class="heading">
+            <h1 class="heading-2">FY BCA SEM I </h1>
+            <div class="link">
+                <a href="/home.html">Home</a> <span class="s1">/</span>
+
+                <a href="/home.html">GLS UNIVERSITY 2022-23</a> <span class="s1">/</span>
+                <a href="/mainbca.html">BCA</a><span class="s1">/</span>
+                <a href="./fybcasem.html">FYBCA</a><span class="s1">/</span>
+                <a href="./sem1bca.html">SEM I</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- course -->
+    <div class="c-1">
+        <div class="c-2">
+            <div class="c-4">
+                <details>
+                    <summary class="detai"> SEM I</summary>
+                    <details>
+                        <summary>STUDENT DATA</summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/ps.html"> PROFILE</a></summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/att.html"> ATTENDENCE</a></summary>
+                    </details>
+                    <details>
+                        <summary>SUBJECTS</summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/HGC.pdf" > 0303102 - History of Gujarat & its Culture (EC)</a>                        </summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/LFWL.pdf">0303101 - Learning from World Leaders (EC)</a>                        </summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/CS.pdf">0302101 - Communication Skills (FC)</a></summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/PMT.pdf">0301107 - Publishing & Multimedia Tools </a>                        </summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/WD.pdf">0301106 - Practical on HTML5, CSS and Javascript </a>                        </summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/PLDP.pdf"> 0301105 - Practical on LDP</a></summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/mcs.pdf">0301104 - Mathematics for Computer Science - I </a>                        </summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/TWD.pdf">0301103 - Introduction to HTML5, CSS & Javascript                            </a></summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/TLDP.pdf">0301102 - Logic Development & Programming                            </a></summary>
+                        <summary><span>&#10140; </span><a href="./BCA PDF/SEM-1/FCO.pdf">0301101 - Computer Fundamentals and Information                                Technology
+                            </a></summary>
+                    </details>
+                </details>
+            </div>
+        </div>
+    </div>
+    <!-- footer  -->
+
+    <footer>
+        <div class="f1">
+            <div class="mf1">
+                <h2>PROGRAMMES</h2>
+                <P>Undergraduate</P>
+                <P>Poast Graduate</P>
+                <P>Reasearch</P>
+                <p>School of Doctoral Research and Innovation</p>
+
+            </div>
+            <div class="mf2">
+                <h2>CONTACT</h2>
+                <P>GLS Campus, Opp. Law Garden, Ellisbridge, Ahmedabad - 380006.</P>
+                <P>Phone</P>
+                <p>+91 79 36258495</p>
+                <p>&copy;manthan,bhavik</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

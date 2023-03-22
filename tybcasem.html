@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faculty of Computer Application & Information Technology</title>
+    <link rel="stylesheet" href="./css/fybcasem.css">
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon">
+    <style>
+        * {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,"Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  .div-1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(74, 74, 74, 0.2);
+}
+.nav{
+    width: 95%;
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  .hero-div{
+    display: flex;
+    column-gap: 20px;
+    height: 30vh;
+  }
+.main-h{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 97%;
+    border: 1px solid rgba(74, 74, 74, 0.2);
+}
+.heading h1{
+    font-weight: 300;
+}
+.link a{
+    text-decoration: none;
+}
+.link a:hover{
+    text-decoration: underline;
+}
+ .link a{
+    
+    color: #1177d1;
+    text-decoration:none;
+    margin-left: 5px;
+    font-size: 19px;
+    font-weight: 300;
+
+}
+ a{
+    
+    color: #1177d1;
+    text-decoration:none;
+    margin-left: 5px;
+    font-size: 21px;
+    font-weight: 300;
+
+}
+.login a{
+    font-size: 16px;
+}
+.login a:hover{
+    text-decoration: underline;
+}
+
+.sp:hover{
+text-decoration: underline;
+}
+.detai{
+font-size: 21px;
+}
+.c-1{
+    
+    width: 97%;
+    height: 40%;
+    width: 100%;
+    padding: 20px;
+}
+.c-4{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.c-2{
+    border: 1px solid rgba(74, 74, 74, 0.2);
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    height: 15vh;
+}
+.span{
+    color: black;
+}
+.span:hover{
+    text-decoration: none;
+}
+footer {
+   min-height: 35vh;
+    color: #f8f9fa !important;
+    margin-top: 20px;
+    background-color: #343a40 !important;
+  }
+  .mf1 h2,
+  .mf2 h2 {
+    font-size: 23px;
+    font-weight: 400;
+  }
+  
+  .f1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .mf1 {
+    width: 400px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  .mf2 {
+    width: 350px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+  }
+  /* @media only screen and (max-width:600px){
+    .f1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+  } */
+  @media(max-width:500px){
+    .main-h{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:100%;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0;
+
+    }
+    #img{
+     display: none;
+        
+    }
+    .heading-2{
+    
+    font-size: 25px;
+    font-weight: 350;
+    
+}
+
+.detai{
+    font-size: 18px;
+}
+
+.f1{
+        display: flex;
+      flex-direction: column;
+      text-align: center;
+      
+      
+      /* margin-left: 200px; */
+    }
+    
+    .c-1{
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 100vw;
+    }
+    .c-2{
+        width: 100vw;
+        border: none;
+        margin-left: 0px;
+    }
+}
+    </style>
+</head>
+<body>
+   <div class="div-1">
+    <nav class="nav">
+        <h3>GLS</h3>
+
+
+        <P class="login">You are not logged in. (<a href="./login.html">Log in</a>)</P>
+
+    </nav>
+   </div>
+
+   <div class="hero-div">
+    <div class="main-h">
+        <div class="heading">
+            <h1 class="heading-2">SEMESTER DATA  </h1>
+            <div class="link">
+                <a href="./home.html">Home</a> <span class="s1">/</span>
+                <a href="./home.html">GLS UNIVERSITY 2022-23</a>  <span class="s1">/</span>
+                 <a href="./mainbca.html">BCA</a> <span class="s1">/</span>
+                 <a href="./tybca.html">TYBCA</a>
+            </div>
+       </div>
+    </div>
+   </div>
+  
+
+   <div class="c-1">
+    <div class="c-2">
+        <div class="c-4">
+             <a href="./login.html" class="detai"><span class="span">&#10140; </span> <span class="sp">SEM V</span></a>
+             <a href="./login.html" class="detai"><span class="span">&#10140; </span> <span class="sp">SEM VI</span></a>
+        </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="f1">
+        <div class="mf1">
+            <h2>PROGRAMMES</h2>
+            <P>Undergraduate</P>
+            <P>Poast Graduate</P>
+            <P>Reasearch</P>
+            <p>School of Doctoral Research and Innovation</p>
+
+        </div>
+        <div class="mf2">
+            <h2>CONTACT</h2>
+            <P>GLS Campus, Opp. Law Garden, Ellisbridge, Ahmedabad - 380006.</P>
+            <P>Phone</P>
+            <p>+91 79 36258495</p>
+            <p>&copy;manthan,bhavik</p>
+        </div>
+    </div>
+</footer>
+   <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+</body>
+</html>
